@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.801),
+      rgba(0, 0, 0, 0.801)
+    ),
+    url(../imgs/starry-sky-night-stars-glitter-wallpaper-preview.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.title {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: #e4e2edbf;
+}
+.title h1 {
+  font-size: 70px;
+}
+.title p {
+  font-size: 20px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  width: 180px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid #e4e2edbf;
+  font-size: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-top: 70px;
+}
+button:hover {
+  background-color: rgb(14, 14, 90);
+}
+
+    /* border-radius: 15px;
+    border: 1px solid #e4e2edbf; */
+
+.boxOfQAndA {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: #e4e2edbf;
+  font-size: 25px;
+  padding: 15px;
+  margin-block: 50px;
+  
+}
+
